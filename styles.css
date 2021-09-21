@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+:root {
+    --primary-color:#4F46E5;
+    --dark-grey:#4B5563;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin:0px;
+}
+
+.container-fluid {
+ padding-left: 1rem;
+ padding-right: 1rem;
+}
+
+.container-center {
+    max-width: 600px;
+    margin:auto;
+}
+
+/* links */
+
+.link {
+    text-decoration:none;
+}
+
+.link-primary {
+    background-color: var(--primary-color);
+    border:1px solid #3B82F6;
+    color:white;
+    border-radius:0.5rem;
+    padding:0.5rem;
+}
+
+.link-secondary {
+    background-color:white;
+    border:1px solid var(--primary-color);
+    border-radius:0.5rem;
+    color:var(--primary-color);
+    padding:0.5rem;
+}
+
+hr {
+    margin:2rem 0rem;
+}
+
+/* lists */
+
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-inline {
+    display:flex; 
+    padding:0.1rem 1rem;
+}
+
+
+.list-inline li {
+    margin: 0rem 1.5rem;
+}
+
+/* navigation */
+
+.navigation .link {
+    padding:0rem 1rem;
+}
+
+
+.navigation {
+    background-color:#3B82F6;
+    color: white;
+    padding:0.5rem 0.5rem;;
+    border-bottom-left-radius: 1rem;
+}
+
+.list-align-right {
+ justify-content: flex-end;
+}
+
+.nav-brand {
+    font-weight:bold;
+}
+
+.link-active {
+    font-weight: bold;;
+}
+
+/* header */
+
+.header-image {
+    max-width: 600px;
+    margin: auto;
+    display: block;
+}
+
+.header-heading {
+    text-align:center;
+    color:var(--dark-grey);
+}
+
+.heading-inverted {
+    color:var(--primary-color);
+}
+
+.section {
+ padding:3rem;
+ text-align:center;
+}
+
+.off-white {
+    background-color: #F5F3FF;
+}
+
+.footer-container {
+    background-color:var(--primary-color);
+    text-align:center;
+    padding: 2rem;
+    color: white;
+    border-top-right-radius:1rem;
+}
+
+.footer-container ul {
+    justify-content: center;
+    padding-inline-start: 0rem;
+
+}
+
+.footer-container .link {
+ color: white;
+}
+
+.footer-header{
+    font-weight:bold;
+    font-size:large;
+}
+
